@@ -6,6 +6,7 @@
   font-display: swap;
 }
 body.discovered-page {
+  margin: 0;
   background-color: #000000;
   color: #ffffff;
   font-family: "Poppins", "Alata", system-ui, -apple-system, sans-serif;
@@ -209,6 +210,82 @@ body.discovered-page {
   max-width: 36rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.meet-page {
+  background: #000000;
+}
+.meet-page .meet-hero {
+  background-color: #000000;
+  background-image: url("../assets/0eabdef7-background_100000000000000000001o.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 227px;
+  padding: 48px 1rem 60px;
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  .meet-page .meet-hero {
+    min-height: 160px;
+  }
+}
+.meet-page .meet-logo {
+  margin: 0;
+  font-size: 0;
+  line-height: 0;
+}
+.meet-page .meet-logo-img {
+  display: block;
+  max-width: 740px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+}
+.meet-page .meet-tagline {
+  margin: 4px auto 0;
+  color: rgba(255, 255, 255, 0.95);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+@media (max-width: 767.98px) {
+  .meet-page .meet-tagline {
+    max-width: 320px;
+  }
+}
+.meet-page .meet-video-section {
+  padding: 56px 0 90px;
+  background: #000000;
+}
+@media (max-width: 767.98px) {
+  .meet-page .meet-video-section {
+    padding-top: 28px;
+  }
+}
+.meet-page .meet-video-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  aspect-ratio: 16/9;
+  background: #000000;
+}
+@media (max-width: 767.98px) {
+  .meet-page .meet-video-wrap {
+    width: calc(100vw - 2rem);
+  }
+}
+.meet-page .meet-video-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .section-project {
